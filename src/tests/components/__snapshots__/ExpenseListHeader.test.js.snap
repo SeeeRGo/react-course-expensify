@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListHeader correctly 1`] = `
+<div>
+  <p>
+    You are viewing 3 expenses
+    
+    for total of $114,195.00
+  </p>
+</div>
+`;
+
+exports[`should render ExpenseListHeader correctly 2`] = `
+<div>
+  <p>
+    You are viewing 1 expense
+    
+    for total of $195.00
+  </p>
+</div>
+`;
