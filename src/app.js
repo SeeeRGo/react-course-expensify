@@ -11,6 +11,7 @@ import 'react-dates/lib/css/_datepicker.css'
 import getVisibleExpenses from './selectors/expenses'
 import {addExpense, editExpense, removeExpense} from './actions/expenses'
 import {setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate} from './actions/filters'
+import './firebase/firebase'
 
 const store = configureStore()
 

@@ -10,7 +10,7 @@ export const ExpenseListHeader = (props) => (
     props.expenses.length !== 0 &&
     <p>
       {`You are viewing ${props.expenses.length} ${props.expenses.length === 1 ? 'expense' : 'expenses'}\n`}
-      {`for total of ${numeral(selectExpensesTotal(props.expenses)).format('$0,0.00')}`}
+      {`for total of ${numeral(selectExpensesTotal(props.expenses) / 100).format('$0,0.00')}`}
     </p>
   }
 	</div>
